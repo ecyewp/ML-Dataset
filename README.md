@@ -17,7 +17,6 @@ import shutil
 import random
 
 def split_dataset(source_dir, train_dir, val_dir, val_size=0.2):
-
     """
     Splits dataset into train/val directories.
 
@@ -27,7 +26,6 @@ def split_dataset(source_dir, train_dir, val_dir, val_size=0.2):
     - val_dir: Path to the directory where validation images will go.
     - val_size: Fraction of dataset to use for validation.
     """
-    
     # Create directories if they don't exist
     if not os.path.exists(train_dir):
         os.makedirs(train_dir)
@@ -62,6 +60,7 @@ train_directory = 'dataset/train'
 val_directory = 'dataset/val'
 
 split_dataset(source_directory, train_directory, val_directory)
+
 ```
 
 #### 🔍 How It Works:
