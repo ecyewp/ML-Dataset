@@ -10,6 +10,7 @@ Prepare Directory Structure: You need to create a train/ and val/ folder inside 
 Randomly Split Images: We'll randomly assign each image to either the train/ or val/ folder.
 
 #### 🧑‍💻 Python Code Example to Split Dataset:
+
 '''
 import os
 import shutil
