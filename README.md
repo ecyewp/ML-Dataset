@@ -11,7 +11,7 @@ Randomly Split Images: We'll randomly assign each image to either the train/ or 
 
 #### 🧑‍💻 Python Code Example to Split Dataset:
 
-'''
+```
 import os
 import shutil
 import random
@@ -62,7 +62,7 @@ train_directory = 'dataset/train'
 val_directory = 'dataset/val'
 
 split_dataset(source_directory, train_directory, val_directory)
-'''
+```
 
 #### 🔍 How It Works:
 Source Directory: source_directory should contain all the images you want to split. These images are assumed to be unclassified (not in any subfolders).
